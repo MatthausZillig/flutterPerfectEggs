@@ -18,9 +18,7 @@ class Button extends StatelessWidget {
       width: 110,
       decoration: BoxDecoration(
         color: selected ? Theme.of(context).primaryColor : Colors.transparent,
-        borderRadius: BorderRadius.all(
-          Radius.circular(30),
-        ),
+        borderRadius: BorderRadius.circular(30),
         border: Border.all(
           width: 1,
           color: Theme.of(context).primaryColor,

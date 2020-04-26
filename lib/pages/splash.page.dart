@@ -1,6 +1,6 @@
-import 'package:eggs/pages/home.page.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
+import 'home.page.dart';
 
 class SplashPage extends StatelessWidget {
   Future delay(context) async {
@@ -20,6 +20,7 @@ class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     delay(context);
+
     return Scaffold(
       body: Column(
         children: <Widget>[
